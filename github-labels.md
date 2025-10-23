@@ -45,17 +45,20 @@ an issue should have exactly one `type`, one `status`, and one `priority` label.
 
 #### `scope/` — the affected area
 
-| label            | description                                                                        |
-| ---------------- | ---------------------------------------------------------------------------------- |
-| `scope/domain`   | the core logic, abstractions, and internal workings of the package or application. |
-| `scope/backend`  | affects the backend api or server-side logic.                                      |
-| `scope/ml-model` | related to the core machine learning model architecture or training.               |
-| `scope/data`     | involves data processing, pipelines, or datasets.                                  |
-| `scope/ui`       | changes to react components, css, and visual presentation.                         |
-| `scope/ux`       | affects user flow, interaction design, and overall experience.                     |
-| `scope/auth`     | related to user authentication or authorization.                                   |
-| `scope/ci-cd`    | affects github actions, deployment, or build processes.                            |
-| `scope/testing`  | related to unit, integration, or e2e tests.                                        |
+| label               | description                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| `scope/domain`      | the core logic, abstractions, and internal workings of the package or application. |
+| `scope/backend`     | affects the backend api or server-side logic.                                      |
+| `scope/ml-model`    | related to the core machine learning model architecture or training.               |
+| `scope/data`        | involves data processing, pipelines, or datasets.                                  |
+| `scope/ui`          | changes to react components, css, and visual presentation.                         |
+| `scope/ux`          | affects user flow, interaction design, and overall experience.                     |
+| `scope/auth`        | related to user authentication or authorization.                                   |
+| `scope/ci-cd`       | affects github actions, deployment, or build processes.                            |
+| `scope/testing`     | related to unit, integration, or e2e tests.                                        |
+| `scope/evaluations` | development of benchmarks, metrics, or frameworks for method validation            |
+| `scope/performance` | optimizations for speed, memory usage, or resource efficiency                      |
+| `scope/analysis`    | scripts, notebooks, or visualizations for data analysis and presentation           |
 
 #### `community/` — external engagement
 
